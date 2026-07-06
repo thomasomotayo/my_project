@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.invoice-box {
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.invoice-box h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.invoice-box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.print-btn {
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Print mode */
+@media print {
+    .print-btn {
+        display: none;
+    }
+
+    body {
+        background: white;
+    }
+}

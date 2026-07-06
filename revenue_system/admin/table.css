@@ -1,0 +1,69 @@
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+th {
+    background: #1f2937;
+    color: #ffffff;
+    text-align: left;
+    padding: 14px;
+    font-size: 14px;
+}
+
+/* ROWS */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* HOVER EFFECT */
+tr:hover {
+    background: #f9fafb;
+    transition: 0.2s;
+}
+
+/* STRIPED ROWS */
+tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+/* ACTION BUTTONS */
+.action-btn {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background: #3b82f6;
+}
+
+.delete-btn {
+    background: #ef4444;
+}
+
+.view-btn {
+    background: #10b981;
+}
+
+/* TABLE HEADER TITLE */
+.table-title {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
